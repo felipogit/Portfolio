@@ -1,0 +1,27 @@
+.container {
+  border-top: 2px solid #FFFFFF80;
+  border-bottom: 2px solid #FFFFFF80;;
+  height: 190px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.container > div > p{
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.containerImg{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.containerImg > div{
+  display: flex;
+  gap: 20px;
+}
+ 

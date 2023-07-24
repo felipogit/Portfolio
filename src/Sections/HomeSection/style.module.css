@@ -1,0 +1,38 @@
+.container{
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container div{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 25px;
+}
+.container > img{
+  width: Clamp(250px , 100%, 500px);
+}
+.container > div > button{
+  width: 130px;
+  height: 39px;
+  border-radius: 1.2rem;
+  border: none;
+  background-color: #6880FF;
+  color: white;
+}
+
+.container > div > p{
+  color: #6880FF;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 921px){
+  .container > div {
+    width: 100%;
+    height: 100%;
+  }
+
+} 

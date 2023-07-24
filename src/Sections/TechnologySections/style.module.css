@@ -1,0 +1,20 @@
+.container{
+  margin-top: 80px;
+}
+
+.container > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 28px;
+}
+.container > ul > li{
+width: 287px;
+height: 86px;
+border: 1px solid #FFFFFF80;
+display:flex;
+align-items: center;
+gap: 20px;
+padding: 20px;
+border-radius: 2.5rem;
+}
